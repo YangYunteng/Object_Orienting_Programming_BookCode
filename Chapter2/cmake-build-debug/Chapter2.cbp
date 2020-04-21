@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Chapter2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="getWords">
+				<Option output="D:/Object Orienting Programming/Chapter2/cmake-build-debug/getWords.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 getWords"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="getWords/fast">
+				<Option output="D:/Object Orienting Programming/Chapter2/cmake-build-debug/getWords.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 getWords/fast"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter2">
+				<Option output="D:/Object Orienting Programming/Chapter2/cmake-build-debug/Chapter2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter2"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Chapter2/fast">
+				<Option output="D:/Object Orienting Programming/Chapter2/cmake-build-debug/Chapter2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Chapter2/fast"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hello">
+				<Option output="D:/Object Orienting Programming/Chapter2/cmake-build-debug/Hello.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hello"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hello/fast">
+				<Option output="D:/Object Orienting Programming/Chapter2/cmake-build-debug/Hello.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hello/fast"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FillVector">
+				<Option output="D:/Object Orienting Programming/Chapter2/cmake-build-debug/FillVector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 FillVector"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FillVector/fast">
+				<Option output="D:/Object Orienting Programming/Chapter2/cmake-build-debug/FillVector.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 FillVector/fast"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scopy">
+				<Option output="D:/Object Orienting Programming/Chapter2/cmake-build-debug/Scopy.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Scopy"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Scopy/fast">
+				<Option output="D:/Object Orienting Programming/Chapter2/cmake-build-debug/Scopy.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Scopy/fast"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CallHello">
+				<Option output="D:/Object Orienting Programming/Chapter2/cmake-build-debug/CallHello.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 CallHello"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CallHello/fast">
+				<Option output="D:/Object Orienting Programming/Chapter2/cmake-build-debug/CallHello.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 CallHello/fast"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Object Orienting Programming/Chapter2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Mingw/bin/mingw32-make.exe -f &quot;D:/Object Orienting Programming/Chapter2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Object Orienting Programming/Chapter2/CallHello.cpp">
+			<Option target="CallHello"/>
+		</Unit>
+		<Unit filename="D:/Object Orienting Programming/Chapter2/FillVector.cpp">
+			<Option target="FillVector"/>
+		</Unit>
+		<Unit filename="D:/Object Orienting Programming/Chapter2/GetWords.cpp">
+			<Option target="getWords"/>
+		</Unit>
+		<Unit filename="D:/Object Orienting Programming/Chapter2/Hello.cpp">
+			<Option target="Hello"/>
+		</Unit>
+		<Unit filename="D:/Object Orienting Programming/Chapter2/Scopy.cpp">
+			<Option target="Scopy"/>
+		</Unit>
+		<Unit filename="D:/Object Orienting Programming/Chapter2/main.cpp">
+			<Option target="Chapter2"/>
+		</Unit>
+		<Unit filename="D:/Object Orienting Programming/Chapter2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
