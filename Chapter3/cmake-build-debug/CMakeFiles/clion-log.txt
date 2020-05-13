@@ -1,0 +1,4 @@
+"E:\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Orient Object Programming/BookCode/Object_Orienting_Programming_BookCode/Chapter3/cmake-build-debug
