@@ -16,7 +16,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89da75ed-d22b-4e8b-82c3-7678efccd0ed" name="Default Changelist" comment="" />
+    <list default="true" id="89da75ed-d22b-4e8b-82c3-7678efccd0ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +29,14 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-Debug-CallHello" />
+  </component>
   <component name="ProjectId" id="1aYigaqbEChFNS217g9eutvpubX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cmake-build-debug" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Chapter3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -98,7 +108,8 @@
       <option name="presentableId" value="Default" />
       <updated>1586919039490</updated>
       <workItem from="1586919042034" duration="1838000" />
-      <workItem from="1587439142050" duration="2675000" />
+      <workItem from="1587439142050" duration="3223000" />
+      <workItem from="1589436304901" duration="576000" />
     </task>
     <servers />
   </component>
@@ -114,26 +125,30 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="415" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.872@0.0.1368.872" timestamp="1586921371823" />
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1587447688087">
+    <state x="465" y="194" key="FileChooserDialogImpl" timestamp="1589436878587">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1587447688087" />
-    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1587447688087">
+    <state x="465" y="194" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1589436878587" />
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom" timestamp="1587448312861">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1587447688087" />
-    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1587447688087">
+    <state width="1326" height="227" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1587448312861" />
+    <state width="1326" height="227" key="GridCell.Tab.0.center" timestamp="1587448312860">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1587447688087" />
-    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1587447688087">
+    <state width="1326" height="227" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1587448312860" />
+    <state width="1326" height="227" key="GridCell.Tab.0.left" timestamp="1587448312860">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1587447688087" />
-    <state x="380" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1587439147466">
+    <state width="1326" height="227" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1587448312860" />
+    <state width="1326" height="227" key="GridCell.Tab.0.right" timestamp="1587448312860">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="380" y="264" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1587439147466" />
+    <state width="1326" height="227" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1587448312860" />
+    <state x="380" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1589436475237">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="380" y="264" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1589436475237" />
     <state x="347" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1586919527408">
       <screen x="0" y="0" width="1368" height="872" />
     </state>

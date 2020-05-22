@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Object Orienting Programming/lab5/Fraction.h
+iostream
+-
+cmath
+-
+
+D:/Object Orienting Programming/lab5/main.cpp
+iostream
+-
+Fraction.h
+D:/Object Orienting Programming/lab5/Fraction.h
+

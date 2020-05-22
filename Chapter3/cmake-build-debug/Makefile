@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Application\JetBrains\Clion\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Application\JetBrains\Clion\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3"
+CMAKE_SOURCE_DIR = "D:\Object Orienting Programming\Chapter3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Object Orienting Programming\Chapter3\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = "D:\Orient Object Programming\BookCode\Object_Orienting_Progr
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"E:\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Application\JetBrains\Clion\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"E:\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Application\JetBrains\Clion\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3\cmake-build-debug\CMakeFiles" "D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -134,6 +134,112 @@ Gloabl: cmake_check_build_system
 Gloabl/fast:
 	$(MAKE) -f CMakeFiles\Gloabl.dir\build.make CMakeFiles/Gloabl.dir/build
 .PHONY : Gloabl/fast
+
+#=============================================================================
+# Target rules for targets named ArgsToInts
+
+# Build rule for target.
+ArgsToInts: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ArgsToInts
+.PHONY : ArgsToInts
+
+# fast build rule for target.
+ArgsToInts/fast:
+	$(MAKE) -f CMakeFiles\ArgsToInts.dir\build.make CMakeFiles/ArgsToInts.dir/build
+.PHONY : ArgsToInts/fast
+
+#=============================================================================
+# Target rules for targets named Rotation
+
+# Build rule for target.
+Rotation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 Rotation
+.PHONY : Rotation
+
+# fast build rule for target.
+Rotation/fast:
+	$(MAKE) -f CMakeFiles\Rotation.dir\build.make CMakeFiles/Rotation.dir/build
+.PHONY : Rotation/fast
+
+#=============================================================================
+# Target rules for targets named CommaOperation
+
+# Build rule for target.
+CommaOperation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 CommaOperation
+.PHONY : CommaOperation
+
+# fast build rule for target.
+CommaOperation/fast:
+	$(MAKE) -f CMakeFiles\CommaOperation.dir\build.make CMakeFiles/CommaOperation.dir/build
+.PHONY : CommaOperation/fast
+
+#=============================================================================
+# Target rules for targets named SelfReferential
+
+# Build rule for target.
+SelfReferential: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 SelfReferential
+.PHONY : SelfReferential
+
+# fast build rule for target.
+SelfReferential/fast:
+	$(MAKE) -f CMakeFiles\SelfReferential.dir\build.make CMakeFiles/SelfReferential.dir/build
+.PHONY : SelfReferential/fast
+
+ArgsToInts.obj: ArgsToInts.cpp.obj
+
+.PHONY : ArgsToInts.obj
+
+# target to build an object file
+ArgsToInts.cpp.obj:
+	$(MAKE) -f CMakeFiles\ArgsToInts.dir\build.make CMakeFiles/ArgsToInts.dir/ArgsToInts.cpp.obj
+.PHONY : ArgsToInts.cpp.obj
+
+ArgsToInts.i: ArgsToInts.cpp.i
+
+.PHONY : ArgsToInts.i
+
+# target to preprocess a source file
+ArgsToInts.cpp.i:
+	$(MAKE) -f CMakeFiles\ArgsToInts.dir\build.make CMakeFiles/ArgsToInts.dir/ArgsToInts.cpp.i
+.PHONY : ArgsToInts.cpp.i
+
+ArgsToInts.s: ArgsToInts.cpp.s
+
+.PHONY : ArgsToInts.s
+
+# target to generate assembly for a file
+ArgsToInts.cpp.s:
+	$(MAKE) -f CMakeFiles\ArgsToInts.dir\build.make CMakeFiles/ArgsToInts.dir/ArgsToInts.cpp.s
+.PHONY : ArgsToInts.cpp.s
+
+CommaOperation.obj: CommaOperation.cpp.obj
+
+.PHONY : CommaOperation.obj
+
+# target to build an object file
+CommaOperation.cpp.obj:
+	$(MAKE) -f CMakeFiles\CommaOperation.dir\build.make CMakeFiles/CommaOperation.dir/CommaOperation.cpp.obj
+.PHONY : CommaOperation.cpp.obj
+
+CommaOperation.i: CommaOperation.cpp.i
+
+.PHONY : CommaOperation.i
+
+# target to preprocess a source file
+CommaOperation.cpp.i:
+	$(MAKE) -f CMakeFiles\CommaOperation.dir\build.make CMakeFiles/CommaOperation.dir/CommaOperation.cpp.i
+.PHONY : CommaOperation.cpp.i
+
+CommaOperation.s: CommaOperation.cpp.s
+
+.PHONY : CommaOperation.s
+
+# target to generate assembly for a file
+CommaOperation.cpp.s:
+	$(MAKE) -f CMakeFiles\CommaOperation.dir\build.make CMakeFiles/CommaOperation.dir/CommaOperation.cpp.s
+.PHONY : CommaOperation.cpp.s
 
 Global.obj: Global.cpp.obj
 
@@ -189,6 +295,60 @@ Global1.cpp.s:
 	$(MAKE) -f CMakeFiles\Gloabl.dir\build.make CMakeFiles/Gloabl.dir/Global1.cpp.s
 .PHONY : Global1.cpp.s
 
+Rotation.obj: Rotation.cpp.obj
+
+.PHONY : Rotation.obj
+
+# target to build an object file
+Rotation.cpp.obj:
+	$(MAKE) -f CMakeFiles\Rotation.dir\build.make CMakeFiles/Rotation.dir/Rotation.cpp.obj
+.PHONY : Rotation.cpp.obj
+
+Rotation.i: Rotation.cpp.i
+
+.PHONY : Rotation.i
+
+# target to preprocess a source file
+Rotation.cpp.i:
+	$(MAKE) -f CMakeFiles\Rotation.dir\build.make CMakeFiles/Rotation.dir/Rotation.cpp.i
+.PHONY : Rotation.cpp.i
+
+Rotation.s: Rotation.cpp.s
+
+.PHONY : Rotation.s
+
+# target to generate assembly for a file
+Rotation.cpp.s:
+	$(MAKE) -f CMakeFiles\Rotation.dir\build.make CMakeFiles/Rotation.dir/Rotation.cpp.s
+.PHONY : Rotation.cpp.s
+
+SelfReferential.obj: SelfReferential.cpp.obj
+
+.PHONY : SelfReferential.obj
+
+# target to build an object file
+SelfReferential.cpp.obj:
+	$(MAKE) -f CMakeFiles\SelfReferential.dir\build.make CMakeFiles/SelfReferential.dir/SelfReferential.cpp.obj
+.PHONY : SelfReferential.cpp.obj
+
+SelfReferential.i: SelfReferential.cpp.i
+
+.PHONY : SelfReferential.i
+
+# target to preprocess a source file
+SelfReferential.cpp.i:
+	$(MAKE) -f CMakeFiles\SelfReferential.dir\build.make CMakeFiles/SelfReferential.dir/SelfReferential.cpp.i
+.PHONY : SelfReferential.cpp.i
+
+SelfReferential.s: SelfReferential.cpp.s
+
+.PHONY : SelfReferential.s
+
+# target to generate assembly for a file
+SelfReferential.cpp.s:
+	$(MAKE) -f CMakeFiles\SelfReferential.dir\build.make CMakeFiles/SelfReferential.dir/SelfReferential.cpp.s
+.PHONY : SelfReferential.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -225,13 +385,29 @@ help:
 	@echo ... Chapter3
 	@echo ... edit_cache
 	@echo ... Gloabl
+	@echo ... ArgsToInts
+	@echo ... Rotation
+	@echo ... CommaOperation
+	@echo ... SelfReferential
 	@echo ... rebuild_cache
+	@echo ... ArgsToInts.obj
+	@echo ... ArgsToInts.i
+	@echo ... ArgsToInts.s
+	@echo ... CommaOperation.obj
+	@echo ... CommaOperation.i
+	@echo ... CommaOperation.s
 	@echo ... Global.obj
 	@echo ... Global.i
 	@echo ... Global.s
 	@echo ... Global1.obj
 	@echo ... Global1.i
 	@echo ... Global1.s
+	@echo ... Rotation.obj
+	@echo ... Rotation.i
+	@echo ... Rotation.s
+	@echo ... SelfReferential.obj
+	@echo ... SelfReferential.i
+	@echo ... SelfReferential.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

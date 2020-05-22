@@ -34,19 +34,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Application\JetBrains\Clion\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "D:\Application\JetBrains\Clion\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3"
+CMAKE_SOURCE_DIR = "D:\Object Orienting Programming\Chapter3"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3\cmake-build-debug"
+CMAKE_BINARY_DIR = "D:\Object Orienting Programming\Chapter3\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -54,12 +54,20 @@ CMAKE_BINARY_DIR = "D:\Orient Object Programming\BookCode\Object_Orienting_Progr
 # The main recursive "all" target.
 all: CMakeFiles/Chapter3.dir/all
 all: CMakeFiles/Gloabl.dir/all
+all: CMakeFiles/ArgsToInts.dir/all
+all: CMakeFiles/Rotation.dir/all
+all: CMakeFiles/CommaOperation.dir/all
+all: CMakeFiles/SelfReferential.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/Chapter3.dir/clean
 clean: CMakeFiles/Gloabl.dir/clean
+clean: CMakeFiles/ArgsToInts.dir/clean
+clean: CMakeFiles/Rotation.dir/clean
+clean: CMakeFiles/CommaOperation.dir/clean
+clean: CMakeFiles/SelfReferential.dir/clean
 
 .PHONY : clean
 
@@ -75,14 +83,14 @@ preinstall:
 CMakeFiles/Chapter3.dir/all:
 	$(MAKE) -f CMakeFiles\Chapter3.dir\build.make CMakeFiles/Chapter3.dir/depend
 	$(MAKE) -f CMakeFiles\Chapter3.dir\build.make CMakeFiles/Chapter3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Chapter3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target Chapter3"
 .PHONY : CMakeFiles/Chapter3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Chapter3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Chapter3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Chapter3.dir/rule
 
 # Convenience name for target.
@@ -102,14 +110,14 @@ CMakeFiles/Chapter3.dir/clean:
 CMakeFiles/Gloabl.dir/all:
 	$(MAKE) -f CMakeFiles\Gloabl.dir\build.make CMakeFiles/Gloabl.dir/depend
 	$(MAKE) -f CMakeFiles\Gloabl.dir\build.make CMakeFiles/Gloabl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3\cmake-build-debug\CMakeFiles" --progress-num=3,4,5 "Built target Gloabl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" --progress-num=7,8,9 "Built target Gloabl"
 .PHONY : CMakeFiles/Gloabl.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Gloabl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3\cmake-build-debug\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Gloabl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Orient Object Programming\BookCode\Object_Orienting_Programming_BookCode\Chapter3\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Gloabl.dir/rule
 
 # Convenience name for target.
@@ -121,6 +129,114 @@ Gloabl: CMakeFiles/Gloabl.dir/rule
 CMakeFiles/Gloabl.dir/clean:
 	$(MAKE) -f CMakeFiles\Gloabl.dir\build.make CMakeFiles/Gloabl.dir/clean
 .PHONY : CMakeFiles/Gloabl.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ArgsToInts.dir
+
+# All Build rule for target.
+CMakeFiles/ArgsToInts.dir/all:
+	$(MAKE) -f CMakeFiles\ArgsToInts.dir\build.make CMakeFiles/ArgsToInts.dir/depend
+	$(MAKE) -f CMakeFiles\ArgsToInts.dir\build.make CMakeFiles/ArgsToInts.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target ArgsToInts"
+.PHONY : CMakeFiles/ArgsToInts.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ArgsToInts.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/ArgsToInts.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/ArgsToInts.dir/rule
+
+# Convenience name for target.
+ArgsToInts: CMakeFiles/ArgsToInts.dir/rule
+
+.PHONY : ArgsToInts
+
+# clean rule for target.
+CMakeFiles/ArgsToInts.dir/clean:
+	$(MAKE) -f CMakeFiles\ArgsToInts.dir\build.make CMakeFiles/ArgsToInts.dir/clean
+.PHONY : CMakeFiles/ArgsToInts.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Rotation.dir
+
+# All Build rule for target.
+CMakeFiles/Rotation.dir/all:
+	$(MAKE) -f CMakeFiles\Rotation.dir\build.make CMakeFiles/Rotation.dir/depend
+	$(MAKE) -f CMakeFiles\Rotation.dir\build.make CMakeFiles/Rotation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" --progress-num=10,11 "Built target Rotation"
+.PHONY : CMakeFiles/Rotation.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Rotation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Rotation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/Rotation.dir/rule
+
+# Convenience name for target.
+Rotation: CMakeFiles/Rotation.dir/rule
+
+.PHONY : Rotation
+
+# clean rule for target.
+CMakeFiles/Rotation.dir/clean:
+	$(MAKE) -f CMakeFiles\Rotation.dir\build.make CMakeFiles/Rotation.dir/clean
+.PHONY : CMakeFiles/Rotation.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/CommaOperation.dir
+
+# All Build rule for target.
+CMakeFiles/CommaOperation.dir/all:
+	$(MAKE) -f CMakeFiles\CommaOperation.dir\build.make CMakeFiles/CommaOperation.dir/depend
+	$(MAKE) -f CMakeFiles\CommaOperation.dir\build.make CMakeFiles/CommaOperation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target CommaOperation"
+.PHONY : CMakeFiles/CommaOperation.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/CommaOperation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/CommaOperation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/CommaOperation.dir/rule
+
+# Convenience name for target.
+CommaOperation: CMakeFiles/CommaOperation.dir/rule
+
+.PHONY : CommaOperation
+
+# clean rule for target.
+CMakeFiles/CommaOperation.dir/clean:
+	$(MAKE) -f CMakeFiles\CommaOperation.dir\build.make CMakeFiles/CommaOperation.dir/clean
+.PHONY : CMakeFiles/CommaOperation.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SelfReferential.dir
+
+# All Build rule for target.
+CMakeFiles/SelfReferential.dir/all:
+	$(MAKE) -f CMakeFiles\SelfReferential.dir\build.make CMakeFiles/SelfReferential.dir/depend
+	$(MAKE) -f CMakeFiles\SelfReferential.dir\build.make CMakeFiles/SelfReferential.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" --progress-num=12,13 "Built target SelfReferential"
+.PHONY : CMakeFiles/SelfReferential.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SelfReferential.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/SelfReferential.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Object Orienting Programming\Chapter3\cmake-build-debug\CMakeFiles" 0
+.PHONY : CMakeFiles/SelfReferential.dir/rule
+
+# Convenience name for target.
+SelfReferential: CMakeFiles/SelfReferential.dir/rule
+
+.PHONY : SelfReferential
+
+# clean rule for target.
+CMakeFiles/SelfReferential.dir/clean:
+	$(MAKE) -f CMakeFiles\SelfReferential.dir\build.make CMakeFiles/SelfReferential.dir/clean
+.PHONY : CMakeFiles/SelfReferential.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

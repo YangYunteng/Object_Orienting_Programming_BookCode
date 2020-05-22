@@ -1,4 +1,4 @@
-# Install script for directory: D:/Orient Object Programming/BookCode/Object_Orienting_Programming_BookCode/Chapter3
+# Install script for directory: D:/Object Orienting Programming/Chapter3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Orient Object Programming/BookCode/Object_Orienting_Programming_BookCode/Chapter3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Object Orienting Programming/Chapter3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

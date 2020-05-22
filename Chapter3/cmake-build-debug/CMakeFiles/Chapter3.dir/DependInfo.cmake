@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/Orient Object Programming/BookCode/Object_Orienting_Programming_BookCode/Chapter3/main.cpp" "D:/Orient Object Programming/BookCode/Object_Orienting_Programming_BookCode/Chapter3/cmake-build-debug/CMakeFiles/Chapter3.dir/main.cpp.obj"
+  "D:/Object Orienting Programming/Chapter3/main.cpp" "D:/Object Orienting Programming/Chapter3/cmake-build-debug/CMakeFiles/Chapter3.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
